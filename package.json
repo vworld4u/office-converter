@@ -1,0 +1,45 @@
+{
+  "name": "office-converter",
+  "version": "1.0.0",
+  "description": "A Conversion utility library for Office Files into PDF/HTML using https://github.com/dagwieers/unoconv",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --prof tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vworld4u/office-converter.git"
+  },
+  "keywords": [
+    "office",
+    "convert",
+    "to",
+    "pdf",
+    "doc",
+    "to",
+    "html",
+    "doc",
+    "to",
+    "pdf",
+    "doc2html",
+    "xltopdf",
+    "xl",
+    "to",
+    "pdf",
+    "xl2pdf",
+    "ppt2pdf",
+    "ppt2html"
+  ],
+  "author": "vworld4u@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vworld4u/office-converter/issues"
+  },
+  "homepage": "https://github.com/vworld4u/office-converter#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2"
+  }
+}
