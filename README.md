@@ -5,8 +5,8 @@ It requires requires [unoconv](https://github.com/dagwieers/unoconv) to be insta
 
 ##Usage
 
-`
-  var converter = require('office-converter')();
+```
+var converter = require('office-converter')();
   converter.generatePdf('input/test.xls', function(err, result) {
     // Process result if no error
     if (result.status === 0) {
@@ -19,7 +19,8 @@ It requires requires [unoconv](https://github.com/dagwieers/unoconv) to be insta
       console.log('Output File located at ' + result.outputFile);
     }
   });
-`
+  
+  ```
 
 ##How to test?
 There are test cases inside tests folder. You can test using `npm test` to test the package. Tests result in test.pdf inside input folder.
